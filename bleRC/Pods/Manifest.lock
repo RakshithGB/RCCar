@@ -1,0 +1,18 @@
+PODS:
+  - DGActivityIndicatorView (2.0)
+  - TOMSMorphingLabel (0.5.1)
+  - UICountingLabel (1.4.0)
+
+DEPENDENCIES:
+  - DGActivityIndicatorView
+  - TOMSMorphingLabel (~> 0.5)
+  - UICountingLabel
+
+SPEC CHECKSUMS:
+  DGActivityIndicatorView: 52875b025a6ccf6a431a905285c12e2bb95eb559
+  TOMSMorphingLabel: 3e88a2bf5257f8993ebc51fb3109187a0bfb2c4d
+  UICountingLabel: ed5ce5b6d5ef278ff40d99cfa49577a30ab0c87b
+
+PODFILE CHECKSUM: e0467c14594e083e88bc2ec66bfb0bf69948e88b
+
+COCOAPODS: 1.0.0

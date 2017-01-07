@@ -1,0 +1,6 @@
+target "BlueRC" do
+	pod 'DGActivityIndicatorView'
+	pod 'UICountingLabel'
+	platform :ios, '7.0'
+	pod "TOMSMorphingLabel", "~> 0.5"
+end

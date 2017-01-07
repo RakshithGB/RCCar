@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06AE81D1179C817700CD66B6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06AE81D0179C817700CD66B6 /* AudioToolbox.framework */; };
+		468370B87E5F1CFA0B524CB0 /* libPods-BlueRC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FCFEAC0820B2B568945ECB /* libPods-BlueRC.a */; };
+		AC2C5F211CE79DF800E514FB /* 008128-glossy-silver-icon-arrows-arrowhead-solid-right.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2C5F201CE79DF800E514FB /* 008128-glossy-silver-icon-arrows-arrowhead-solid-right.png */; };
+		AC2C5F231CE79E9E00E514FB /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2C5F221CE79E9E00E514FB /* left.png */; };
+		AC2C5F251CE7A07C00E514FB /* top.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2C5F241CE7A07C00E514FB /* top.png */; };
+		AC2C5F271CE7A08400E514FB /* bot.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2C5F261CE7A08400E514FB /* bot.png */; };
+		AC8A67BB1CE5F59800C06C6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8A67B91CE5F09900C06C6C /* Images.xcassets */; };
+		AC8A67BF1CE612F300C06C6C /* Black_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC8A67BE1CE612F300C06C6C /* Black_background.jpg */; };
+		CE938FA1179AFCBD0013699D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE938FA0179AFCBD0013699D /* UIKit.framework */; };
+		CE938FA3179AFCBD0013699D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE938FA2179AFCBD0013699D /* Foundation.framework */; };
+		CE938FA5179AFCBD0013699D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE938FA4179AFCBD0013699D /* CoreGraphics.framework */; };
+		CE938FAB179AFCBD0013699D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE938FA9179AFCBD0013699D /* InfoPlist.strings */; };
+		CE938FAD179AFCBD0013699D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE938FAC179AFCBD0013699D /* main.m */; };
+		CE938FB1179AFCBD0013699D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE938FB0179AFCBD0013699D /* AppDelegate.m */; };
+		CE938FB3179AFCBD0013699D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE938FB2179AFCBD0013699D /* Default.png */; };
+		CE938FB5179AFCBD0013699D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE938FB4179AFCBD0013699D /* Default@2x.png */; };
+		CE938FB7179AFCBD0013699D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE938FB6179AFCBD0013699D /* Default-568h@2x.png */; };
+		CE938FBA179AFCBD0013699D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE938FB8179AFCBD0013699D /* MainStoryboard.storyboard */; };
+		CE938FBD179AFCBE0013699D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE938FBC179AFCBE0013699D /* ViewController.m */; };
+		CE938FC7179AFD4A0013699D /* analogue_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CE938FC3179AFD4A0013699D /* analogue_bg.png */; };
+		CE938FC8179AFD4A0013699D /* analogue_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE938FC4179AFD4A0013699D /* analogue_bg@2x.png */; };
+		CE938FC9179AFD4A0013699D /* analogue_handle.png in Resources */ = {isa = PBXBuildFile; fileRef = CE938FC5179AFD4A0013699D /* analogue_handle.png */; };
+		CE938FCA179AFD4A0013699D /* analogue_handle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE938FC6179AFD4A0013699D /* analogue_handle@2x.png */; };
+		CE938FCD179AFD6A0013699D /* JSAnalogueStick.m in Sources */ = {isa = PBXBuildFile; fileRef = CE938FCC179AFD6A0013699D /* JSAnalogueStick.m */; };
+		CE938FD2179AFE5B0013699D /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = CE938FD0179AFE5B0013699D /* BLE.m */; };
+		CE938FD4179AFE7B0013699D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE938FD3179AFE7B0013699D /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06AE81CE179C7F8700CD66B6 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		06AE81D0179C817700CD66B6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5E8E8834656F368BE32B48A6 /* Pods-BlueRC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueRC.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueRC/Pods-BlueRC.release.xcconfig"; sourceTree = "<group>"; };
+		AC2C5F201CE79DF800E514FB /* 008128-glossy-silver-icon-arrows-arrowhead-solid-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "008128-glossy-silver-icon-arrows-arrowhead-solid-right.png"; sourceTree = "<group>"; };
+		AC2C5F221CE79E9E00E514FB /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		AC2C5F241CE7A07C00E514FB /* top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top.png; sourceTree = "<group>"; };
+		AC2C5F261CE7A08400E514FB /* bot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bot.png; sourceTree = "<group>"; };
+		AC8A67B91CE5F09900C06C6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BlueRC/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		AC8A67BE1CE612F300C06C6C /* Black_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Black_background.jpg; sourceTree = "<group>"; };
+		C1FCFEAC0820B2B568945ECB /* libPods-BlueRC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlueRC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE938F9D179AFCBD0013699D /* BlueRC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueRC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE938FA0179AFCBD0013699D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE938FA2179AFCBD0013699D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE938FA4179AFCBD0013699D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE938FA8179AFCBD0013699D /* BlueRC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlueRC-Info.plist"; sourceTree = "<group>"; };
+		CE938FAA179AFCBD0013699D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE938FAC179AFCBD0013699D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE938FAE179AFCBD0013699D /* BlueRC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlueRC-Prefix.pch"; sourceTree = "<group>"; };
+		CE938FAF179AFCBD0013699D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE938FB0179AFCBD0013699D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE938FB2179AFCBD0013699D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CE938FB4179AFCBD0013699D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CE938FB6179AFCBD0013699D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE938FB9179AFCBD0013699D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CE938FBB179AFCBE0013699D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE938FBC179AFCBE0013699D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE938FC3179AFD4A0013699D /* analogue_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = analogue_bg.png; sourceTree = "<group>"; };
+		CE938FC4179AFD4A0013699D /* analogue_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "analogue_bg@2x.png"; sourceTree = "<group>"; };
+		CE938FC5179AFD4A0013699D /* analogue_handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = analogue_handle.png; sourceTree = "<group>"; };
+		CE938FC6179AFD4A0013699D /* analogue_handle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "analogue_handle@2x.png"; sourceTree = "<group>"; };
+		CE938FCB179AFD6A0013699D /* JSAnalogueStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSAnalogueStick.h; path = ../JSAnalogueStick.h; sourceTree = "<group>"; };
+		CE938FCC179AFD6A0013699D /* JSAnalogueStick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSAnalogueStick.m; path = ../JSAnalogueStick.m; sourceTree = "<group>"; };
+		CE938FCF179AFE5B0013699D /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		CE938FD0179AFE5B0013699D /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		CE938FD1179AFE5B0013699D /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+		CE938FD3179AFE7B0013699D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		ED38426FA26529DAD5A2B06C /* Pods-BlueRC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueRC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueRC/Pods-BlueRC.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE938F9A179AFCBD0013699D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06AE81D1179C817700CD66B6 /* AudioToolbox.framework in Frameworks */,
+				CE938FD4179AFE7B0013699D /* CoreBluetooth.framework in Frameworks */,
+				CE938FA1179AFCBD0013699D /* UIKit.framework in Frameworks */,
+				CE938FA3179AFCBD0013699D /* Foundation.framework in Frameworks */,
+				CE938FA5179AFCBD0013699D /* CoreGraphics.framework in Frameworks */,
+				468370B87E5F1CFA0B524CB0 /* libPods-BlueRC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7C266528B42EED716992388 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED38426FA26529DAD5A2B06C /* Pods-BlueRC.debug.xcconfig */,
+				5E8E8834656F368BE32B48A6 /* Pods-BlueRC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE938F94179AFCBD0013699D = {
+			isa = PBXGroup;
+			children = (
+				CE938FA6179AFCBD0013699D /* BlueRC */,
+				CE938F9F179AFCBD0013699D /* Frameworks */,
+				CE938F9E179AFCBD0013699D /* Products */,
+				C7C266528B42EED716992388 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		CE938F9E179AFCBD0013699D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE938F9D179AFCBD0013699D /* BlueRC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE938F9F179AFCBD0013699D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06AE81D0179C817700CD66B6 /* AudioToolbox.framework */,
+				06AE81CE179C7F8700CD66B6 /* CoreAudio.framework */,
+				CE938FCE179AFE5B0013699D /* BLE_Framework */,
+				CE938FD3179AFE7B0013699D /* CoreBluetooth.framework */,
+				CE938FA0179AFCBD0013699D /* UIKit.framework */,
+				CE938FA2179AFCBD0013699D /* Foundation.framework */,
+				CE938FA4179AFCBD0013699D /* CoreGraphics.framework */,
+				C1FCFEAC0820B2B568945ECB /* libPods-BlueRC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE938FA6179AFCBD0013699D /* BlueRC */ = {
+			isa = PBXGroup;
+			children = (
+				CE938FCB179AFD6A0013699D /* JSAnalogueStick.h */,
+				CE938FCC179AFD6A0013699D /* JSAnalogueStick.m */,
+				CE938FAF179AFCBD0013699D /* AppDelegate.h */,
+				CE938FB0179AFCBD0013699D /* AppDelegate.m */,
+				CE938FB8179AFCBD0013699D /* MainStoryboard.storyboard */,
+				CE938FBB179AFCBE0013699D /* ViewController.h */,
+				CE938FBC179AFCBE0013699D /* ViewController.m */,
+				CE938FA7179AFCBD0013699D /* Supporting Files */,
+				AC8A67B91CE5F09900C06C6C /* Images.xcassets */,
+			);
+			path = BlueRC;
+			sourceTree = "<group>";
+		};
+		CE938FA7179AFCBD0013699D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE938FA8179AFCBD0013699D /* BlueRC-Info.plist */,
+				AC8A67BE1CE612F300C06C6C /* Black_background.jpg */,
+				AC2C5F261CE7A08400E514FB /* bot.png */,
+				AC2C5F241CE7A07C00E514FB /* top.png */,
+				AC2C5F221CE79E9E00E514FB /* left.png */,
+				CE938FA9179AFCBD0013699D /* InfoPlist.strings */,
+				CE938FAC179AFCBD0013699D /* main.m */,
+				CE938FAE179AFCBD0013699D /* BlueRC-Prefix.pch */,
+				CE938FB2179AFCBD0013699D /* Default.png */,
+				AC2C5F201CE79DF800E514FB /* 008128-glossy-silver-icon-arrows-arrowhead-solid-right.png */,
+				CE938FB4179AFCBD0013699D /* Default@2x.png */,
+				CE938FB6179AFCBD0013699D /* Default-568h@2x.png */,
+				CE938FD5179AFEF30013699D /* images */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE938FCE179AFE5B0013699D /* BLE_Framework */ = {
+			isa = PBXGroup;
+			children = (
+				CE938FCF179AFE5B0013699D /* BLE.h */,
+				CE938FD0179AFE5B0013699D /* BLE.m */,
+				CE938FD1179AFE5B0013699D /* BLEDefines.h */,
+			);
+			path = BLE_Framework;
+			sourceTree = "<group>";
+		};
+		CE938FD5179AFEF30013699D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CE938FC3179AFD4A0013699D /* analogue_bg.png */,
+				CE938FC4179AFD4A0013699D /* analogue_bg@2x.png */,
+				CE938FC5179AFD4A0013699D /* analogue_handle.png */,
+				CE938FC6179AFD4A0013699D /* analogue_handle@2x.png */,
+			);
+			name = images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE938F9C179AFCBD0013699D /* BlueRC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE938FC0179AFCBE0013699D /* Build configuration list for PBXNativeTarget "BlueRC" */;
+			buildPhases = (
+				1680AB28C91DFACDDEAB15EE /* 📦 Check Pods Manifest.lock */,
+				CE938F99179AFCBD0013699D /* Sources */,
+				CE938F9A179AFCBD0013699D /* Frameworks */,
+				CE938F9B179AFCBD0013699D /* Resources */,
+				1BD1590DFF6161FAAF863671 /* 📦 Embed Pods Frameworks */,
+				D33463943806ECD6037AA561 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueRC;
+			productName = BlueRC;
+			productReference = CE938F9D179AFCBD0013699D /* BlueRC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE938F95179AFCBD0013699D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Scott Cheezem";
+				TargetAttributes = {
+					CE938F9C179AFCBD0013699D = {
+						DevelopmentTeam = M49K3N6YDE;
+					};
+				};
+			};
+			buildConfigurationList = CE938F98179AFCBD0013699D /* Build configuration list for PBXProject "BlueRC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE938F94179AFCBD0013699D;
+			productRefGroup = CE938F9E179AFCBD0013699D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE938F9C179AFCBD0013699D /* BlueRC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE938F9B179AFCBD0013699D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE938FAB179AFCBD0013699D /* InfoPlist.strings in Resources */,
+				AC8A67BB1CE5F59800C06C6C /* Images.xcassets in Resources */,
+				CE938FB3179AFCBD0013699D /* Default.png in Resources */,
+				CE938FB5179AFCBD0013699D /* Default@2x.png in Resources */,
+				CE938FB7179AFCBD0013699D /* Default-568h@2x.png in Resources */,
+				CE938FBA179AFCBD0013699D /* MainStoryboard.storyboard in Resources */,
+				AC2C5F271CE7A08400E514FB /* bot.png in Resources */,
+				AC2C5F231CE79E9E00E514FB /* left.png in Resources */,
+				AC8A67BF1CE612F300C06C6C /* Black_background.jpg in Resources */,
+				CE938FC7179AFD4A0013699D /* analogue_bg.png in Resources */,
+				CE938FC8179AFD4A0013699D /* analogue_bg@2x.png in Resources */,
+				AC2C5F211CE79DF800E514FB /* 008128-glossy-silver-icon-arrows-arrowhead-solid-right.png in Resources */,
+				AC2C5F251CE7A07C00E514FB /* top.png in Resources */,
+				CE938FC9179AFD4A0013699D /* analogue_handle.png in Resources */,
+				CE938FCA179AFD4A0013699D /* analogue_handle@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1680AB28C91DFACDDEAB15EE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1BD1590DFF6161FAAF863671 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueRC/Pods-BlueRC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D33463943806ECD6037AA561 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueRC/Pods-BlueRC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE938F99179AFCBD0013699D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE938FAD179AFCBD0013699D /* main.m in Sources */,
+				CE938FB1179AFCBD0013699D /* AppDelegate.m in Sources */,
+				CE938FBD179AFCBE0013699D /* ViewController.m in Sources */,
+				CE938FCD179AFD6A0013699D /* JSAnalogueStick.m in Sources */,
+				CE938FD2179AFE5B0013699D /* BLE.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE938FA9179AFCBD0013699D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE938FAA179AFCBD0013699D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE938FB8179AFCBD0013699D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE938FB9179AFCBD0013699D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE938FBE179AFCBE0013699D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: luckydudefeelinggreat@gmail.com (NA7G3W3794)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: luckydudefeelinggreat@gmail.com (NA7G3W3794)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE938FBF179AFCBE0013699D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: luckydudefeelinggreat@gmail.com (NA7G3W3794)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: luckydudefeelinggreat@gmail.com (NA7G3W3794)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE938FC1179AFCBE0013699D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED38426FA26529DAD5A2B06C /* Pods-BlueRC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlueRC/BlueRC-Prefix.pch";
+				INFOPLIST_FILE = "BlueRC/BlueRC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = rgb.BlueRC1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE938FC2179AFCBE0013699D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E8E8834656F368BE32B48A6 /* Pods-BlueRC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlueRC/BlueRC-Prefix.pch";
+				INFOPLIST_FILE = "BlueRC/BlueRC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = rgb.BlueRC1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE938F98179AFCBD0013699D /* Build configuration list for PBXProject "BlueRC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE938FBE179AFCBE0013699D /* Debug */,
+				CE938FBF179AFCBE0013699D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE938FC0179AFCBE0013699D /* Build configuration list for PBXNativeTarget "BlueRC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE938FC1179AFCBE0013699D /* Debug */,
+				CE938FC2179AFCBE0013699D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE938F95179AFCBD0013699D /* Project object */;
+}
