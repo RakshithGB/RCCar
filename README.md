@@ -15,7 +15,7 @@ A remote control car using RedBearLab's BLE Shield was designed and an iOS app w
 
 ##Usage
 1. Copy the files in library folder to arduino's library folder and then compile the code and upload it to arduino board.
-2. Open `<BlueRC.xcworkspace>` file found in bleRC folder in Xcode and sideload the app on your iOS device.
+2. Open `BlueRC.xcworkspace` file found in bleRC folder in Xcode and sideload the app on your iOS device.
 
 ##Demo
 ![Model](/Images/RCCar_Demo.gif?raw=true "Optional Title")
